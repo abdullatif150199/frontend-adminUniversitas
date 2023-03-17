@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px) {
+  .hidden {
+    display: none;
+  }
+  .container-fluid {
+    margin-top: 100px;
+  }
+
+  .container-fluid {
+    margin-top: 100px;
+  }
+}

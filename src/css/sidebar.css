@@ -1,0 +1,12 @@
+.sidebara {
+  margin-top: 10px;
+}
+
+.list-group-item:hover {
+  background-color: #006400;
+  color: white;
+}
+
+/* .sidebar a:hover {
+  color: white;
+} */
