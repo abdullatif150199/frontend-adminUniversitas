@@ -222,7 +222,7 @@ export default function Pegawai() {
 
       {/* modal */}
       <div>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} style={{ maxWidth: "90vw" }}>
           <Modal.Header closeButton>
             <Modal.Title>{detail ? "Detail pegawai" : <div>{edit ? "Update Data pegawai" : "Tambah Data pegawai"}</div>}</Modal.Title>
           </Modal.Header>

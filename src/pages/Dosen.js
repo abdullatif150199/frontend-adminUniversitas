@@ -222,7 +222,7 @@ export default function Dosen() {
 
       {/* modal */}
       <div>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} style={{ maxWidth: "90vw" }}>
           <Modal.Header closeButton>
             <Modal.Title>{detail ? "Detail Dosen" : <div>{edit ? "Update Data Dosen" : "Tambah Data dosen"}</div>}</Modal.Title>
           </Modal.Header>

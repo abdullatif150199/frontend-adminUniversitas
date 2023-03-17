@@ -226,7 +226,7 @@ export default function Nilai() {
 
       {/* modal */}
       <div>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} style={{ maxWidth: "90vw" }}>
           <Modal.Header closeButton>
             <Modal.Title>{detail ? "Detail nilai" : <div>{edit ? "Update Data nilai" : "Tambah Data nilai"}</div>}</Modal.Title>
           </Modal.Header>

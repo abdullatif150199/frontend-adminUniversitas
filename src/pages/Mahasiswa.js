@@ -240,7 +240,7 @@ export default function Mahasiswa() {
 
       {/* modal */}
       <div>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} style={{ maxWidth: "90vw" }}>
           <Modal.Header closeButton>
             <Modal.Title>{detail ? "Detail Mahasiswa" : <div>{edit ? "Update Data Mahasiswa" : "Tambah Data Mahasiswa"}</div>}</Modal.Title>
           </Modal.Header>
