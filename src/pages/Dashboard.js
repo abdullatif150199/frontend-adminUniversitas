@@ -24,7 +24,7 @@ export default function Dashboard() {
       </h3>
       <hr />
       <div className="row cardParent justify-content-center">
-        <div className="col-md-3 col-8 mt-3 mb-5">
+        <div className="col-md-3 col-8 mt-3">
           <Card className="bg-info text-white">
             <Card.Body>
               <Card.Title className="">Jumlah Mahasiswa</Card.Title>
